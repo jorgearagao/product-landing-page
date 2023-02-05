@@ -20,12 +20,16 @@
     gap: 10px;
 }
 
-address a, section a {
+address a, .connect a {
     text-decoration: none;
     color: #989898;
     font-style: normal;
 }
 
-address a:hover, section a:hover {
+address a:hover, .connect a:hover {
     color: #555555;
+}
+
+img {
+    height: 16px;
 }
