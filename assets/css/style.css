@@ -9,14 +9,15 @@
     padding: 12px 50px;
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    font-weight: 500;
-    color: #8f8e8e;
     background-color: #F7F9FB;
 }
 
 .contacts, .connect {
+    font-size: 12px;
+    font-weight: 500;
+    color: #989898;
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -30,6 +31,3 @@ address a:hover, .connect a:hover {
     color: #555555;
 }
 
-img {
-    height: 16px;
-}
