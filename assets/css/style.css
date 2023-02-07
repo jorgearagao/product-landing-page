@@ -64,20 +64,53 @@ address a:hover, .connect a:hover {
     cursor: pointer;
 }
 
-.menu-bar button {
-    height: 40px;
-    width: 120px;
-}
-
 .button_blue {
+    padding: 15px 25px;
     border: 2px solid #4F6DF5;
     border-radius: 5px;
     background-color: #fff;
     color: #4F6DF5;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .button_blue:hover {
     background-color: #4F6DF5;
     color: #FFF;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 70px 0 70px;
+    background-color: #F7F9FB;
+}
+
+.banner_text {
+    width: 50%;
+}
+
+.banner_text h1 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_text p {
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #989898;
+    margin-bottom: 20px;
+}
+.banner_text button {
+    margin-right: 10px;
+}
+
+.banner_image {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
