@@ -6,7 +6,7 @@
 }
 
 .header {
-    padding: 12px 50px;
+    padding: 12px 70px;
     display: flex;
     justify-content: space-between;
     background-color: #F7F9FB;
@@ -31,3 +31,53 @@ address a:hover, .connect a:hover {
     color: #555555;
 }
 
+.menu-bar {
+    padding: 12px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F9FB;
+    height: 80px;
+}
+
+.menu-bar .wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.menu-bar .wrapper nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.menu-bar .wrapper nav ul li:hover {
+    color: #4F6DF5;
+    cursor: pointer;
+}
+
+.menu-bar button {
+    height: 40px;
+    width: 120px;
+}
+
+.button_blue {
+    border: 2px solid #4F6DF5;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #4F6DF5;
+    font-weight: 600;
+}
+
+.button_blue:hover {
+    background-color: #4F6DF5;
+    color: #FFF;
+}
