@@ -12,7 +12,8 @@
     background-color: #F7F9FB;
 }
 
-.contacts, .connect {
+.contacts,
+.connect {
     font-size: 12px;
     font-weight: 500;
     color: #989898;
@@ -21,13 +22,15 @@
     gap: 10px;
 }
 
-address a, .connect a {
+address a,
+.connect a {
     text-decoration: none;
     color: #989898;
     font-style: normal;
 }
 
-address a:hover, .connect a:hover {
+address a:hover,
+.connect a:hover {
     color: #555555;
 }
 
@@ -105,6 +108,7 @@ address a:hover, .connect a:hover {
     color: #989898;
     margin-bottom: 20px;
 }
+
 .banner_text button {
     margin-right: 10px;
 }
@@ -121,7 +125,8 @@ address a:hover, .connect a:hover {
     margin: 90px 70px;
 }
 
-.card_one, .card_two {
+.card_one,
+.card_two {
     border: 1px solid #d6d5d5;
     border-radius: 5px;
     display: flex;
@@ -129,17 +134,20 @@ address a:hover, .connect a:hover {
     width: 49%;
 }
 
-.card_one .icon, .card_two .icon {
+.card_one .icon,
+.card_two .icon {
     margin-right: 30px;
 }
 
-.card_one .text .title, .card_two .text .title{
+.card_one .text .title,
+.card_two .text .title {
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-.card_one .text .desc, .card_two .text .desc {
+.card_one .text .desc,
+.card_two .text .desc {
     font-size: 13px;
     font-weight: 500;
     color: #828282;
@@ -147,13 +155,15 @@ address a:hover, .connect a:hover {
     margin-bottom: 15px;
 }
 
-.card_one .text .more, .card_two .text .more {
+.card_one .text .more,
+.card_two .text .more {
     font-size: 14px;
     font-weight: 700;
     color: #4F6DF5;
 }
 
-.card_one .text .more:hover, .card_two .text .more:hover {
+.card_one .text .more:hover,
+.card_two .text .more:hover {
     cursor: pointer;
     color: #000;
 }
@@ -183,7 +193,7 @@ address a:hover, .connect a:hover {
     font-weight: 500;
 }
 
-.product .desc .separador {
+.separador {
     border: 1px solid #4F6DF5;
     width: 60px;
     margin-top: 20px;
@@ -202,7 +212,8 @@ address a:hover, .connect a:hover {
     margin-top: 30px;
 }
 
-.stats1, .stats2 {
+.stats1,
+.stats2 {
     font-size: 75px;
 }
 
@@ -210,9 +221,76 @@ address a:hover, .connect a:hover {
     margin-right: 15px;
 }
 
-.stats .stats1 p, .stats .stats2 p {
+.stats .stats1 p,
+.stats .stats2 p {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
+    color: #828282;
+}
+
+.services {
+    margin: 90px 70px;
+}
+
+.services .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.services .title h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.services .title p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #828282;
+    width: 350px;
+    text-align: center;
+}
+
+.services_itens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services_itens .image {
+    flex-grow: 2;
+}
+
+.services_itens .itens_right {
+    flex-grow: 1;
+}
+
+.itens_left, .itens_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itens_left .item {
+    text-align: right;
+
+}
+
+
+.item svg {
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    font-weight: 500;
+    font-size: 13px;
     color: #828282;
 }
