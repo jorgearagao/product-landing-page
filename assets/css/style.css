@@ -67,7 +67,7 @@ address a:hover,
     cursor: pointer;
 }
 
-.button_blue {
+.button_white {
     padding: 15px 25px;
     border: 2px solid #4F6DF5;
     border-radius: 5px;
@@ -76,7 +76,7 @@ address a:hover,
     font-weight: 700;
 }
 
-.button_blue:hover {
+.button_white:hover {
     background-color: #4F6DF5;
     color: #FFF;
 }
@@ -172,9 +172,9 @@ address a:hover,
     background-image: url("../images/product1.jpg");
     background-repeat: no-repeat;
     background-position-x: -200px;
+    background-size: auto auto;
     display: flex;
     justify-content: flex-end;
-    height: 580px;
 }
 
 
@@ -293,4 +293,107 @@ address a:hover,
     font-weight: 500;
     font-size: 13px;
     color: #828282;
+}
+
+.product3 {
+    background-image: url("../images/product3.jpg");
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    background-size: auto auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product3 .desc .container {
+    width: 380px;
+}
+
+.product3 .desc {
+    background-color: #F7F9FB;
+    width: 50%;
+    padding: 100px;
+}
+
+.product3 .desc h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.product3 .desc p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #828282;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 70px;
+}
+
+.column_desc {
+    padding: 70px 120px 70px 0;
+    flex: 1 1 0;
+}
+
+.column_desc h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 43px;
+    color: #1f1f1f;
+}
+
+.column_desc p {
+    font-size: 14px;
+    color: #747474;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.column_desc button {
+    margin-bottom: 40px;
+}
+
+.column_plan {
+    border: 1px solid rgb(221, 220, 220);
+    padding: 50px;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column_plan h4 {
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.column_plan h5 {
+    color: #4F6DF5;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.column_plan div {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+.column_plan div ul {
+    list-style-type: none;
+}
+
+.column_plan div ul li {
+    height: 30px;
+    font-size: 14px;
+    color: #747474;
+    font-weight: 500;
 }
