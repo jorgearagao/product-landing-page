@@ -461,3 +461,67 @@ address a:hover,
     background-color: #fff;
     color: #4F6DF5;
 }
+
+.footer {
+    padding: 70px 70px;
+    background-color: #252525;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer div {
+    flex: 1 1 0;
+}
+
+.footer h6 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff
+}
+
+.footer a:hover {
+    color: #4F6DF5;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.credits {
+    background-color: #1F1F1F;
+    padding: 30px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.credits p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #fff
+}
+
+.credits a:hover {
+    color: #4F6DF5;
+}
